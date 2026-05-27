@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gajananmaharajkondhali.netlify.app/sitemap.xml
