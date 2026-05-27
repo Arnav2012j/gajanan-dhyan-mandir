@@ -156,7 +156,7 @@ export default function Hero() {
           color: '#2D1B00',
         }}
       >
-        श्रीसंत गजानन महाराज ध्यान मंदिर, कोंढाळी
+        श्री संत गजानन महाराज ध्यान मंदिर, कोंढाळी
       </h1>
 
       {/* Registration number */}

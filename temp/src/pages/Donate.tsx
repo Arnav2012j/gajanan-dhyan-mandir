@@ -125,10 +125,8 @@ export default function Donate() {
             {[
               { label: 'खाते नाव', value: 'SHRI SANT GAJANAN MAHARAJ DHAYANMANDIR KONDHALI' },
               { label: 'बँकेचे नाव', value: 'अरविंद सहकारी बँक लि.' },
-              { label: 'शाखा', value: 'DIGDOH' },
               { label: 'खाते क्रमांक', value: '100310011002263' },
               { label: 'IFSC कोड', value: 'ARBL0000003' },
-              { label: 'Customer ID', value: '982402362' },
             ].map((item) => (
               <div
                 key={item.label}

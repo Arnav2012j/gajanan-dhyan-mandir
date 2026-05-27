@@ -148,30 +148,12 @@
 }
 
 /* ── Image orientation safety override ── */
+/* All images are pre-rotated correctly at file level via Pillow.  */
+/* image-orientation ensures any residual EXIF is still respected. */
 img {
-  transform: none !important;
-  rotate: 0deg !important;
-  image-orientation: from-image; /* honour remaining EXIF if any */
+  image-orientation: from-image;
 }
 
-/* Gallery masonry grid */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 200px;
-  gap: 16px;
-}
-
-.gallery-item:nth-child(1) { grid-row: span 2; }
-.gallery-item:nth-child(2) { grid-row: span 1; }
-.gallery-item:nth-child(3) { grid-row: span 2; }
-.gallery-item:nth-child(4) { grid-row: span 1; }
-.gallery-item:nth-child(5) { grid-row: span 1; }
-.gallery-item:nth-child(6) { grid-row: span 2; }
-
-@media (max-width: 768px) {
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 150px;
-  }
-}
+/* Gallery — uniform aspect-ratio grid (replaces broken masonry) */
+/* Layout is handled entirely by Tailwind classes in Gallery.tsx  */
+/* No fixed row heights, no span overrides that caused rotation   */
