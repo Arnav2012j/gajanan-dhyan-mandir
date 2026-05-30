@@ -39,7 +39,7 @@ export default function Navigation() {
           className="text-base md:text-lg font-bold"
           style={{ color: '#D00000' }}
         >
-          श्री संत गजानन महाराज सेवा ट्रस्ट
+          श्री संत गजानन महाराज ध्यान मंदिर, कोंढाळी
         </a>
 
         {/* Desktop nav */}

@@ -130,11 +130,11 @@ export default function Contact() {
                   संपर्क क्रमांक
                 </h3>
                 <a
-                  href="tel:+919923586208"
+                  href="tel:+918999054469"
                   style={{ fontSize: '1.15rem', color: '#E85D04', fontWeight: 700 }}
                   className="hover:underline"
                 >
-                  +91 9923586208
+                  +91 8999054469
                 </a>
                 <p className="mt-1 text-xs" style={{ color: '#8B6914' }}>
                   WhatsApp वरही उपलब्ध

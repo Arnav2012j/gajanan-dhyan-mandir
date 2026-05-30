@@ -1,5 +1,5 @@
 export default function FloatingWhatsApp() {
-  const phone = '919923586208';
+  const phone = '918999054469';
   const message = encodeURIComponent('नमस्कार, श्री संत गजानन महाराज ध्यान मंदिर कोंढाळी बद्दल माहिती हवी आहे.');
 
   return (
